@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Drop Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="game-wrapper">
+    <h1 class="game-title">Water Drop</h1>
+    <p class="game-tagline">Catch the clean drops, avoid the dirty ones!</p>
+
+    <div class="score-panel">
+      <div class="score">Score: <span id="score">0</span></div>
+      <div class="high-score">High Score: <span id="high-score">0</span></div>
+      <div class="timer">Time: <span id="time">30</span>s</div>
+      <div class="multiplier-display">Bonus: <span id="bonus-status">x1</span></div>
+      <button id="start-btn">Start Game</button>
+    </div>
+
+    <div id="feedback" class="feedback">Tap Start to play!</div>
+
+    <div id="game-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
