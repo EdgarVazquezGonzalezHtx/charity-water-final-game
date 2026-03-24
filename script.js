@@ -402,3 +402,4 @@ function launchConfetti() {
     setTimeout(() => confetti.remove(), 2500);
   }
 }
+// comment to be able to redeploy (github pages wasn't updating despite pushing changes)
