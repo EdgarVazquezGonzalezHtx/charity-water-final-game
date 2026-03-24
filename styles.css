@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Fixed flex - direction*/
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; 
   min-height: 100vh;
   background: #FFC907;
   font-family: Proxima Nova;
