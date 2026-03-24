@@ -8,9 +8,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   min-height: 100vh;
   background: #FFC907;
-  font-family: Arial, sans-serif;
+  font-family: Proxima Nova;
   padding: 20px;
 }
 
@@ -57,7 +58,7 @@ body {
   color: #1d1d1d;
 }
 
-#start-btn {
+#start-btn, #difficulty-btn {
   padding: 10px 18px;
   background-color: #2E9DF7;
   color: white;
@@ -69,7 +70,7 @@ body {
   transition: transform 0.15s ease, background-color 0.15s ease;
 }
 
-#start-btn:hover {
+#start-btn:hover, #difficulty-btn:hover {
   background-color: #167fd3;
   transform: scale(1.05);
 }
@@ -242,5 +243,12 @@ body {
 
   .game-title {
     font-size: 36px;
+  }
+  .footer {
+    min-height: 50px;
+    font-family: Proxima Nova;
+    background-color: blue;
+    color: white;
+    text-align: center;
   }
 }
